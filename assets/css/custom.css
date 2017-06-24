@@ -1,0 +1,229 @@
+/* Add here all your css styles (customizations) */
+body{
+	width: 100%;
+    overflow-x: hidden;
+}
+.top-banner{
+	margin-bottom: 6%;
+	box-shadow: 1px 5px 8px 1px #eee;
+}
+.slider-content-row{
+	margin-bottom: 1%;
+}
+button.btn.btn-success {
+    /* margin-left: 47%; */
+    width: 100%;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #38b68d;
+}
+
+button.btn.btn-success:hover {
+    border: 1px solid #38b68d;
+    color:#38b68d;
+    width: 100%;
+    height: 50px;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+
+.below-slider-content.request-form {
+    padding: 5%;
+    box-shadow: 2px 1px 3px 3px #eee;
+    margin-bottom: 4%;
+}
+
+.below-slider-content.request-form:hover {
+    border-bottom: 1px solid #38b68d;
+    box-shadow: 3px 11px 30px -4px #38b68d;
+}
+
+.sky-form h2 {
+    text-align: center;
+    color: #38b68d;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+label.control-label.col-md-12 {
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+input.form-control {
+    height: 44px;
+    box-shadow: 1px 1px 1px 1px #eee;
+}
+
+select.form-control {
+    height: 44px;
+    box-shadow: 1px 1px 1px 1px #eee;
+}
+
+.emoji{
+	width: 100%;
+    height: 250px;
+    background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.emoji:hover{
+	
+   
+    background-position: center;
+   
+}
+
+.container.emoji-content:hover {
+    border-bottom: 1px solid #38b68d;
+    box-shadow: 3px 11px 30px -4px #38b68d;
+}
+
+.container.emoji-content {
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 3px 3px #eee;
+    margin-bottom: 3%;
+}
+
+.emoji-text{
+	text-align: justify;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.paper{
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 3px 3px #eee;
+    height: 371px;
+}
+
+p.page-line {
+    line-height: 28px;
+    font-size: 20px;
+    text-align: justify;
+}
+.page {
+    padding: 6%;
+}
+
+.navbar.navbar-default.mega-menu {
+    margin-bottom: 3%;
+    border-bottom: 1px solid #eee;
+}
+/*.paper{
+	//background: #666;
+	margin-top: 30px;
+	padding: 10px;
+}*/
+
+/*.page{
+	width: 80%;
+	margin: auto;
+	padding: 25px;
+	color: #212121;
+	-webkit-border-bottom-left-radius:20px 500px;
+	-webkit-border-bottom-right-radius: 500px 30px;
+	-webkit-border-top-right-radius: 5px 100px;
+	background: #fcf59b;
+	background: 
+	-webkit-gradient(
+		liner,
+		left top,left bottom,
+		from(#81cbbc),
+		color-stop(2%,#fcf59b)
+		);
+	-webkit-background-size:100% 40px;
+}*/
+
+/*.page-line{
+	padding: 0 100px;
+	line-height: 40px
+	margin-bottom:40px;
+}*/
+
+.blog-content {
+    border-bottom: 1px solid #38b68d;
+    box-shadow: 3px 11px 30px -4px #38b68d;
+}
+
+.blog-content {
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 3px 3px #eee;
+    margin-bottom: 3%;
+    height: 200px;
+}
+
+.emoji-text{
+	text-align: justify;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+.blog-image{
+	width: 100%;
+    height: 150px;
+    margin-top: 9%;
+    background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+i.fa {
+    color: #38b68d;
+    font-size: 18px;
+}
+
+.blog-footer {
+    margin: 2%;
+}
+.blog-content-view{
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 3px 3px #eee;
+    margin-bottom: 3%;
+    height: auto;
+}
+
+.emoji-view{
+    width: 100%;
+    height: 370px;
+    margin-top: 9%;
+    background-image: url(http://pix.iemoji.com/images/emoji/apple/ios-9/256/thinking-face.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.desc {
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.recent_blog{
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 3px 3px #eee;
+    margin-bottom: 3%;
+    height: auto;	
+}
+
+.rbname {
+    padding: 2%;
+     border-bottom: 1px solid #38b68d;
+     color: #38b68d;
+}
+
+.head {
+    text-align: center;
+    padding: 4%;
+    border-bottom: 1px solid #38b68d;
+    text-transform: uppercase;
+    color: #38b68d;
+}

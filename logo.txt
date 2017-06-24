@@ -1,0 +1,258 @@
+<!-- <?php
+/*tcpdf();
+$obj_pdf = new TCPDF('P', PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+$obj_pdf->SetCreator(PDF_CREATOR);
+$title = "PDF Report";
+$obj_pdf->SetTitle($title);
+$obj_pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, $title, PDF_HEADER_STRING);
+$obj_pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+$obj_pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+$obj_pdf->SetDefaultMonospacedFont('helvetica');
+$obj_pdf->SetHeaderMargin(PDF_MARGIN_HEADER);
+$obj_pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
+$obj_pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+$obj_pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+$obj_pdf->SetFont('helvetica', '', 9);
+$obj_pdf->setFontSubsetting(false);
+$obj_pdf->AddPage();
+ob_start();*/
+    // we can have any view part here like HTML, PHP etc
+    //$content = ob_get_contents();
+   /* $content = 'hello';
+ob_end_clean();
+$obj_pdf->writeHTML($content, true, false, true, false, '');
+$obj_pdf->Output('output.pdf');*/
+
+ ?> -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <img src="<?=base_url(); ?>ru.png" style="height: 71px;
+    width: 71px;
+    font-size: 83px;
+    color: #ffffff;
+    position: absolute;
+    top: 303px;
+    left: 495px;
+    text-align: center;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    /* padding: 12px; */
+    /* border-bottom-right-radius: 13px; */
+    /* border-top-right-radius: 27px; */
+    border-radius: 50%;"></img>
+ <div class="col-md-8 fms-bulb-header hasSVG" id="cartLogoItem149791"><span class="flip-card-template" style="display: none;"></span><svg  version="1.1" width="100%" height="100%" viewBox="0 0 354.33 246.61">
+ <metadata id="metadata5850">image/svg+xml</metadata>
+ <defs>
+  <style id="fonts" type="text/css">@font-face {
+       font-family: Arial;
+       src: local('Arial');
+    }
+
+    @font-face {
+       font-family: Arial;
+       src: local('Arial');
+    }
+    
+    @font-face {
+        font-family: Neuton;
+        src: url('//www.onlinefreelogo.com/fonts/Neuton.otf');
+    }
+    @font-face {
+        font-family: 'Stag Medium';
+        src: url('//www.onlinefreelogo.com/fonts/STAG-MEDIUM_0.otf');
+    }
+    @font-face {
+        font-family: 'Stag Sans Medium';
+        src: url('//www.onlinefreelogo.com/fonts/STAGSANS-MEDIUM_0.otf');
+    }
+    @font-face {
+        font-family: 'Museo Slab';
+        src: url('//www.onlinefreelogo.com/fonts/Museo_Slab.otf');
+    }
+    @font-face {
+        font-family: 'Museo Sans';
+        src: url('//www.onlinefreelogo.com/fonts/museosans-webfont.woff2') format('woff2'),
+			 url('//www.onlinefreelogo.com/fonts/museosans-webfont.woff') format('woff'),
+			 url('//www.onlinefreelogo.com/fonts/MuseoSans.otf');
+    }
+    @font-face {
+        font-family: 'Zapf ChanceC';
+        src: url('//www.onlinefreelogo.com/fonts/Zapf.otf');
+    }
+    @font-face {
+        font-family: 'Gill Sans MT Ext Condensed Bold';
+        src: url('//www.onlinefreelogo.com/fonts/GLSNECB.otf');
+    }
+    @font-face {
+        font-family: 'HelveticaCnd-Normal';
+        src: url('//www.onlinefreelogo.com/fonts/HELVETIA.otf');
+    }
+    @font-face {
+        font-family: 'Comic Neue';
+        src: url('//www.onlinefreelogo.com/fonts/cursive.otf');
+    }
+    @font-face {
+        font-family: 'CG-OmegaC';
+        src: url('//www.onlinefreelogo.com/fonts/cgor45w.otf');
+    }
+    @font-face {
+        font-family: 'Eurostile LT Bold';
+        src: url('//www.onlinefreelogo.com/fonts/STAGSANS-MEDIUM_0.otf');
+    } 
+    @font-face {
+      font-family: Arial; 
+      src: local('Arial');
+    } 
+    @font-face {
+        font-family: Adventure;
+        src: url('//www.onlinefreelogo.com/fonts/Adventure.otf');
+    }
+
+    @font-face {
+        font-family: ChopinScript;
+        src: url('//www.onlinefreelogo.com/fonts/ChopinScript.otf');
+    }
+
+    @font-face {
+        font-family: 'Giddyup Std';
+        src: url('//www.onlinefreelogo.com/fonts/GiddyupStd.otf');
+    }
+
+    @font-face {
+        font-family: 'Kleymissky';
+        src: url('//www.onlinefreelogo.com/fonts/Kleymissky_0283.otf');
+    }
+
+    @font-face {
+        font-family: 'Orial_';
+        src: url('//www.onlinefreelogo.com/fonts/ORIAL_BOLD.otf');
+    }
+
+    @font-face {
+        font-family: 'Rosewood Std Regular';
+        src: url('//www.onlinefreelogo.com/fonts/RosewoodStd-Regular.otf');
+    }
+
+    @font-face {
+        font-family: 'Stencil Std';
+        src: url('//www.onlinefreelogo.com/fonts/StencilStd.otf');
+    }
+
+    @font-face {
+        font-family: 'Scriptina Pro';
+        src: url('//www.onlinefreelogo.com/fonts/Scriptina-Pro.otf');
+    }</style>
+<style type="text/css" id="fonts">
+    @font-face {
+       font-family: Arial-BoldMT;
+       src: local('Arial');
+    }
+
+    @font-face {
+       font-family: ArialMT;
+       src: local('Arial');
+    }
+    
+    @font-face {
+        font-family: Neuton;
+        src: url('//www.onlinefreelogo.com/fonts/Neuton.otf');
+    }
+    @font-face {
+        font-family: 'Stag Medium';
+        src: url('//www.onlinefreelogo.com/fonts/STAG-MEDIUM_0.otf');
+    }
+    @font-face {
+        font-family: 'Stag Sans Medium';
+        src: url('//www.onlinefreelogo.com/fonts/STAGSANS-MEDIUM_0.otf');
+    }
+    @font-face {
+        font-family: 'Museo Slab';
+        src: url('//www.onlinefreelogo.com/fonts/Museo_Slab.otf');
+    }
+    @font-face {
+        font-family: 'Museo Sans';
+        src: url('//www.onlinefreelogo.com/fonts/museosans-webfont.woff2') format('woff2'),
+			 url('//www.onlinefreelogo.com/fonts/museosans-webfont.woff') format('woff'),
+			 url('//www.onlinefreelogo.com/fonts/MuseoSans.otf');
+    }
+    @font-face {
+        font-family: 'Zapf ChanceC';
+        src: url('//www.onlinefreelogo.com/fonts/Zapf.otf');
+    }
+    @font-face {
+        font-family: 'Gill Sans MT Ext Condensed Bold';
+        src: url('//www.onlinefreelogo.com/fonts/GLSNECB.otf');
+    }
+    @font-face {
+        font-family: 'HelveticaCnd-Normal';
+        src: url('//www.onlinefreelogo.com/fonts/HELVETIA.otf');
+    }
+    @font-face {
+        font-family: 'Comic Neue';
+        src: url('//www.onlinefreelogo.com/fonts/cursive.otf');
+    }
+    @font-face {
+        font-family: 'CG-OmegaC';
+        src: url('//www.onlinefreelogo.com/fonts/cgor45w.otf');
+    }
+    @font-face {
+        font-family: 'Eurostile LT Bold';
+        src: url('//www.onlinefreelogo.com/fonts/STAGSANS-MEDIUM_0.otf');
+    } 
+    @font-face {
+      font-family: ArialMT; 
+      src: local('Arial');
+    } 
+    @font-face {
+        font-family: Adventure;
+        src: url('//www.onlinefreelogo.com/fonts/Adventure.otf');
+    }
+
+    @font-face {
+        font-family: ChopinScript;
+        src: url('//www.onlinefreelogo.com/fonts/ChopinScript.otf');
+    }
+
+    @font-face {
+        font-family: 'Giddyup Std';
+        src: url('//www.onlinefreelogo.com/fonts/GiddyupStd.otf');
+    }
+
+    @font-face {
+        font-family: 'Kleymissky';
+        src: url('//www.onlinefreelogo.com/fonts/Kleymissky_0283.otf');
+    }
+
+    @font-face {
+        font-family: 'Orial_';
+        src: url('//www.onlinefreelogo.com/fonts/ORIAL_BOLD.otf');
+    }
+
+    @font-face {
+        font-family: 'Rosewood Std Regular';
+        src: url('//www.onlinefreelogo.com/fonts/RosewoodStd-Regular.otf');
+    }
+
+    @font-face {
+        font-family: 'Stencil Std';
+        src: url('//www.onlinefreelogo.com/fonts/StencilStd.otf');
+    }
+
+    @font-face {
+        font-family: 'Scriptina Pro';
+        src: url('//www.onlinefreelogo.com/fonts/Scriptina-Pro.otf');
+    }
+</style>
+
+ </defs>
+ <g>
+  <title>Click to Edit</title>
+  <path fill="#38b68d" id="Color1" d="m124.67349,100.61985c-0.84601,0 -1.71509,0 -2.59513,0c-10.1781,0 -22.02976,0 -22.02976,0l0,45.04626c0,0.97403 -0.01845,1.93885 0.23702,2.80447c4.85577,8.93128 17.72473,11.64752 17.72473,11.64752c-2.80562,-2.6776 -4.33963,-7.33211 -5.17988,-11.64752c3.01669,0 6.2237,0 9.24789,0c0.8835,0 1.75431,0 2.59513,0c33.29897,0.00041 33.57924,-47.85072 0,-47.85072z"></path>
+  <text font-style="normal" font-weight="normal" text-anchor="middle" fill="#2db674" font-family="Arial" id="Tagline" font-size="20px" x="178.0305" y="226.56427">
+  </text>
+
+  <text style="cursor: move;" transform="rotate(-0.3079369068145752 246.03292846680117,154.81991577148307) " font-style="normal" font-weight="600" text-anchor="middle" fill="#38b68d" font-family="Gill Sans MT Ext Condensed Bold" id="Company_Name" font-size="80" x="225.96187" y="148.73641">rotrader</text>
+ </g>
+</svg>
+
+</div>
+
